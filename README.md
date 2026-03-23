@@ -1,4 +1,4 @@
-# capture.js — Authenticated Site Crawler & Screenshot Tool
+# Site Crawler Screenshot Taker — Authenticated Site Crawler & Screenshot Tool
 
 A Node.js tool that logs into a website, crawls every reachable page automatically, and captures screenshots at desktop, tablet, and mobile viewports. Built for redesign workflows where you need accurate screenshots of every page without manual capture.
 
