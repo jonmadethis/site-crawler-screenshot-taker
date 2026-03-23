@@ -154,13 +154,7 @@ await page.setCookie(...cookies);
 
 ## Security Note
 
-`config.json` contains your login credentials in plain text. Add it to `.gitignore` before committing:
-
-```bash
-echo "config.json" >> .gitignore
-```
-
-Only `config.example.json` (with placeholder values) should be committed to the repo.
+`config.json` contains your login credentials in plain text. 
 
 ---
 
