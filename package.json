@@ -1,0 +1,13 @@
+{
+  "name": "screenshot-tool",
+  "version": "2.0.0",
+  "description": "Authenticated site crawler and multi-viewport screenshot tool",
+  "main": "capture.js",
+  "scripts": {
+    "capture": "node capture.js",
+    "capture:config": "node capture.js config.json"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}

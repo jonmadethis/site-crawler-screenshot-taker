@@ -1,0 +1,41 @@
+{
+  "startUrl": "https://yoursite.com",
+  "outputDir": "./screenshots",
+  "maxPages": 200,
+  "screenshotDelay": 800,
+  "fullPage": true,
+  "waitUntil": "networkidle2",
+
+  "viewports": [
+    { "name": "desktop", "width": 1440, "height": 900 },
+    { "name": "tablet",  "width": 768,  "height": 1024 },
+    { "name": "mobile",  "width": 390,  "height": 844 }
+  ],
+
+  "skipPatterns": [
+    "/logout",
+    "/signout",
+    "/delete",
+    "/admin",
+    "\\?sort=",
+    "\\?page="
+  ],
+
+  "allowedDomains": [],
+
+  "login": {
+    "enabled": true,
+    "url": "https://yoursite.com/login",
+
+    "usernameSelector": "input[name='email']",
+    "passwordSelector": "input[name='password']",
+    "submitSelector":   "button[type='submit']",
+
+    "username": "you@example.com",
+    "password": "yourpassword",
+
+    "waitAfterLogin": 2000,
+
+    "successIndicator": null
+  }
+}
