@@ -27,7 +27,7 @@ A Node.js tool that logs into a website, crawls every reachable page automatical
 
 ```bash
 git clone https://github.com/jonmadethis/site-crawler-screenshot-taker.git
-cd capture-tool
+cd site-crawler-screenshot-taker
 npm install
 ```
 
